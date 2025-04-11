@@ -1,0 +1,22 @@
+matches:
+   - triggers: [:date, :day]
+     replace: "{{mydate}}"
+     vars:
+        - name: mydate
+          type: date
+          params:
+             format: "%Y-%m-%d"
+   - triggers: [:now, :time]
+     replace: "{{mytime}}"
+     vars:
+        - name: mytime
+          type: date
+          params:
+             format: "%H:%M"
+   - triggers: [:dt]
+     replace: "{{mydt}}"
+     vars:
+        - name: mydt
+          type: date
+          params:
+             format: "%Y-%m-%d %H:%M"

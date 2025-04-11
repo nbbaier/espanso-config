@@ -1,0 +1,17 @@
+matches:
+   - triggers: [:hyper]
+     replace: ⌃⌥⌘⇧
+   - trigger: ":shrug"
+     replace: "¯\\_(ツ)_/¯"
+   - triggers: [:shebang]
+     replace: "#!/bin/sh"
+   - triggers: [":freedium"]
+     replace: "https://freedium.cfd/"
+   - triggers: [:ng]
+     replace: "{{output}}"
+     label: Generate a random name
+     vars:
+        - name: output
+          type: shell
+          params:
+             cmd: ~/.local/namegen

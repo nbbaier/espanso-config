@@ -1,0 +1,16 @@
+matches:
+   - triggers: [synomyn]
+     replace: synonym
+   - triggers: [langauge]
+     replace: language
+   - triggers: [follwoing]
+     replace: following
+   - triggers: [obdisian]
+     replace: obsidian
+   - triggers: [langs]
+     replace: languages
+     word: true
+   - triggers: [aysnc]
+     replace: async
+   - triggers: ["retrun"]
+     replace: "return"

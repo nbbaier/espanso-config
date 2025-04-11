@@ -1,0 +1,34 @@
+matches:
+   - triggers: [:address]
+     replace: "2147 W Roscoe St, Unit 3E, Chicago, IL 60618"
+   - triggers: [:street]
+     replace: "2147 W Roscoe St"
+   - triggers: [:name]
+     replace: "Nico Baier"
+   - triggers: [:lname]
+     replace: "Nicholas Baier"
+   - triggers: [:email]
+     replace: nico.baier@gmail.com
+   - triggers: [:reader]
+     replace: qqvwhmxw@feed.readwise.io
+   - triggers: [:phone]
+     replace: 734-660-6123
+   - triggers: [:lphone]
+     replace: +1-734-660-6123
+     label: "long phone"
+   - triggers: [:rphone]
+     replace: "847-970-2469"
+     label: "rebecca's phone"
+   - triggers: [:lrphone]
+     replace: "1+847-970-2469"
+     label: "rebecca's long phone"
+   - triggers: [:twurl]
+     replace: https://twitter.com/nbbaier
+   - triggers: [:ghurl]
+     replace: https://github.com/nbbaier
+   - triggers: [:rebecca, :remail]
+     replace: "rebeccalmiller13@gmail.com"
+   - triggers: [:wedding]
+     replace: "nicoandrebeccawedding@gmail.com"
+   - triggers: [:website, :www]
+     replace: "https://nicobaier.com"
